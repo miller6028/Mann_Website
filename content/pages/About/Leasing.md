@@ -1,6 +1,5 @@
 Title: Leasing
-Status: Hidden
-Menu: TopC
+Menu: SideC
 
 {!notice.md!}
 

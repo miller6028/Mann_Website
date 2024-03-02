@@ -1,6 +1,5 @@
 Title: Membership
-Status: Hidden
-Menu: TopD
+Menu: SideD
 
 {!notice.md!}
 

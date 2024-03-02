@@ -1,6 +1,5 @@
 Title: Contact Us
-Status: Hidden
-Menu: TopE
+Menu: SideE
 
 {!notice.md!}
 

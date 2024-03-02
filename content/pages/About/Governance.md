@@ -1,6 +1,5 @@
 Title: Governance
-Status: Hidden
-Menu: TopB
+Menu: SideB
 
 {!notice.md!}
 
