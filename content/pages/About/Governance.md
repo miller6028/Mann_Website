@@ -12,17 +12,6 @@ July, and October at 6:00 PM in the Bromley room of the Siuslaw Public
 Library and via video conferencing.  Details on how to attend will be
 sent to [members]({filename}Membership.md).
 
-The next four scheduled meetings are:
-
-| Date                                      | Time    |
-| :---                                      | :---    |
-| <div id='meet1'>JavaScript required</div> | 6:00 PM |
-| <div id='meet2'>JavaScript required</div> | 6:00 PM |
-| <div id='meet3'>JavaScript required</div> | 6:00 PM |
-| <div id='meet4'>JavaScript required</div> | 6:00 PM |
-
-{!mtgsched.js!}
-
 [Summaries of past board meetings are available
 here.]({filename}Summaries of past board meetings.md)
 

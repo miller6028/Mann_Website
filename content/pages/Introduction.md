@@ -33,9 +33,3 @@ you want to help!
 Continue your visit here by reading the [Frequently Asked
 Questions]({filename}FAQ.md) section, or by exploring the menu items
 on the left side of every page.
-
-**Please feel free to join us at our next
-[meeting]({filename}About/Governance.md#board-meetings)
-at 6:00 PM on <span id='meet1'>JavaScript required</span>.**
-
-{!mtgsched.js!}
