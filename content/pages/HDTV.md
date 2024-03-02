@@ -88,8 +88,6 @@ a result, and because the five TV stations have identical power output
 levels of 2500 Watts E.R.P., robust signal strength in the area is
 insured for each station.
 
-[Read more]({static}/pdfs/Siuslaw_News_01-16-2010.pdf) about WLT's
-transmission facility upgrade (PDF).  
 [Read more]({filename}FAQ.md) about the answers to frequently asked
 questions.  
 [Read more]({filename}HDTV/Antennas.md) about antennas and signal

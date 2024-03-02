@@ -12,14 +12,6 @@ July, and October at 6:00 PM in the Bromley room of the Siuslaw Public
 Library and via video conferencing.  Details on how to attend will be
 sent to [members]({filename}Membership.md).
 
-[Summaries of past board meetings are available
-here.]({filename}Summaries of past board meetings.md)
-
-### Bylaws
-
-Our bylaws are available in [PDF
-format]({static}/pdfs/WLT_Bylaws_January_27_2021_distribution.pdf).
-
 ### Board Members
 
 | Name              | Office              | Affiliation                                     |
