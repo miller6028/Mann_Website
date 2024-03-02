@@ -1,8 +1,7 @@
 Title: History
 Status: Hidden
-Menu: TopA
+Menu: SideZ
 
-{!notice.md!}
 
 Free, over-the-air television in the Florence area began back in 1959
 with a demonstration of the capabilities of translator technology,
@@ -10,15 +9,6 @@ described in this clipping from *The Siuslaw Oar*:
 
 ----
 
-<div markdown style="overflow:auto;">
-
-<div markdown style="float:left;">
-
-[![The Siuslaw Oar, June 12,
-1959]({static}/images/The-Oar.jpg)<br>Click for PDF
-copy]({static}/pdfs/The_Oar.pdf)
-
-</div>
 
 **Favor 2-Channel TV Reception**
 
@@ -62,25 +52,16 @@ and maintenance; $1500.
 
 Close to 300 persons attended.
 
-</div>
+
 
 ----
 
 More recently, the switch from analog to digital TV transmission was
 another big step forward for our organization, featured in this article
-in [The Siuslaw News](https://thesiuslawnews.com/):
+in 
 
 ----
 
-<div markdown style="overflow:auto;">
-
-<div markdown style="float:right;">
-
-[![The Siuslaw News, January 16,
-2010]({static}/images/seeing-digital.jpg)<br>Click for PDF
-copy]({static}/pdfs/Siuslaw_News_01-16-2010.pdf)
-
-</div>
 
 **Seeing digital**
 
@@ -147,12 +128,3 @@ rabbit-ear loop antenna," said Dennis Hunt, WLT board member and TV
 engineer.  "Non-digital sets will require the converter box. There is
 no need to buy an amplified antenna system."
 
-For more information, visit WLT's website
-[www.westlanetv.org](https://westlanetv.org).
-
-</div>
-
-----
-
-Both articles on this page appear courtesy of [The Siuslaw
-News](https://thesiuslawnews.com/).
