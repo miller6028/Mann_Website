@@ -16,8 +16,8 @@ from markdown_include.include import MarkdownInclude
 # Depending on the scope of changes, you may want to change "westlanetv.org"
 # in the SITEURL to wherever the staging site is so links point within the
 # staging site.
-SITEURL = 'https://westlanetv.org'
-SITENAME = 'West Lane Translator Inc.'
+SITEURL = 'https://mann-website.pages.dev'
+SITENAME = 'Ronald G. Mann Building LLC'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
 
@@ -26,15 +26,15 @@ THEME = 'Flex'
 
 # Flex general site settings
 SITETITLE = SITENAME
-SITESUBTITLE = 'Serving the Central Oregon Coast since 1959'
+SITESUBTITLE = 'Specializing in complex site builds'
 SITEDESCRIPTION = \
-    "Information about West Lane Translator's HDTV and FM translators."
-AUTHOR = 'West Lane Translator Inc.'
+    "Information about Ronald G. Mann Building LLC."
+AUTHOR = 'Ronald G. Mann Building LLC'
 COPYRIGHT_NAME = AUTHOR
-COPYRIGHT_YEAR = '2011-' + str(datetime.datetime.today().year)
+COPYRIGHT_YEAR = '2024-' + str(datetime.datetime.today().year)
 ROBOTS = 'index, follow'
 FAVICON = SITEURL + '/images/favicon.ico'
-SITELOGO = SITEURL + '/images/logo.jpg'
+SITELOGO = SITEURL + '/images/mnronaldgmannbuilding.png'
 # Flex Dark Mode settings per:
 #   https://github.com/alexandrevicenzi/Flex/wiki/Dark-Mode
 THEME_COLOR = 'light'
