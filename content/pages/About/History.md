@@ -1,5 +1,4 @@
 Title: History
-Status: Hidden
 Menu: SideZ
 
 
