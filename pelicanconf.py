@@ -117,7 +117,7 @@ PAGE_SAVE_AS = '{slug}.html'
 #   3) at the bottom of the page by the copyright (via a local change).
 
 # The menu at the top of the page is enabled with:
-MAIN_MENU = True
+# MAIN_MENU = True
 # and the items to be put in it are defined via MENUITEMS which will
 # be set by Python code that follows.
 
