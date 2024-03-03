@@ -1,7 +1,5 @@
-Title: Membership
+Title: Builder Insight
 Menu: SideD
-
-{!notice.md!}
 
 West Lane Translator welcomes your support!
 
