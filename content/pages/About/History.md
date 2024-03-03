@@ -1,5 +1,5 @@
-Title: History
-Menu: SideZ
+Title: About Us
+Menu: SideA
 
 
 Free, over-the-air television in the Florence area began back in 1959
