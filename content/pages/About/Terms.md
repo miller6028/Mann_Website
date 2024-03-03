@@ -2,7 +2,7 @@ Title: Terms and Conditions
 Status: Hidden
 Menu: BottomA
 
-Last updated: July 19, 2020
+Last updated: March 3, 2024
 
 Please read these terms and conditions carefully before using Our
 Service.
@@ -29,8 +29,8 @@ For the purposes of these Terms and Conditions:
 * **Country** refers to: Oregon,  United States
 
 * **Company** (referred to as either "the Company", "We", "Us" or
-  "Our" in this Agreement) refers to West Lane Translator Inc.,
-  P.O. Box 91, Florence, Oregon 97439.
+  "Our" in this Agreement) refers to Ronald G. Mann Building LLC,
+  P.O. Box 2389, Florence, Oregon 97439.
 
 * **Device** means any device that can access the Service such as a
   computer, a cellphone or a digital tablet.
@@ -44,8 +44,8 @@ For the purposes of these Terms and Conditions:
   Conditions
   Generator](https://www.termsfeed.com/terms-conditions-generator/){:target="_blank"}.
 
-* **Website** refers to West Lane Translator Inc., accessible from
-  [https://westlanetv.org](https://westlanetv.org)
+* **Website** refers to Ronald G. Mann Building LLC, accessible from
+  [https://mann-website.pages.dev](https://mann-website.pages.dev)
 
 * **You** means the individual accessing or using the Service, or the
   company, or other legal entity on behalf of which such individual is
@@ -235,6 +235,6 @@ If you have any questions about these Terms and Conditions, You can
 contact us:
 
 * By visiting this page on our website:
-  [https://westlanetv.org/pages/contact-us.html]({filename}Contact.md)
+  [https://mann-website.pages.dev/pages/contact-us.html]({filename}Contact.md)
 
-* By mail: P.O. Box 91, Florence, Oregon 97439
+* By mail: P.O. Box 2389, Florence, Oregon 97439
