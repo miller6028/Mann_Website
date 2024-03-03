@@ -11,6 +11,4 @@ Ronald G Mann Building LLC specializes in complex site builds and delivers a ful
 We take pride in our work and delight our clients by using quality materials and expertise built on years of service and experience.
 Make sure to visit Our Homes page to see our Oregon made homes and [Contact Us]({filename}About/Contact.md) to start the journey into your new home.
 
-![Equal Housing]({static}/images/MNEqualhousinglender.png) 
-
-![Veteran Builder]({static}/images/MNva-builder.jpg)
+![Equal Housing]({static}/images/MNEqualhousinglender.png) ![Veteran Builder]({static}/images/MNva-builder.jpg)
