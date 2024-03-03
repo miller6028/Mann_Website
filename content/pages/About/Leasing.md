@@ -1,7 +1,6 @@
-Title: Leasing
+Title: Construction
 Menu: SideC
 
-{!notice.md!}
 
 West Lane Translator Incorporated owns and operates a substantial
 communications tower in the Florence, Oregon market. Our facilities are
