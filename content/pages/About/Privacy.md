@@ -2,7 +2,7 @@ Title: Privacy Policy
 Status: Hidden
 Menu: BottomB
 
-Last updated: July 19, 2020
+Last updated: March 3, 2024
 
 This Privacy Policy describes Our policies and procedures on the
 collection, use and disclosure of Your information when You use the
