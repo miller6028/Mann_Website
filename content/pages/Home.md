@@ -1,5 +1,6 @@
 Title: Home
 Menu: Side0
+Status: Hidden
 URL:
 Save_As: index.html
 
