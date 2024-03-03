@@ -1,7 +1,5 @@
-Title: Governance
+Title: Our Homes
 Menu: SideB
-
-{!notice.md!}
 
 [TOC]
 
