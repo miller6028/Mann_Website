@@ -25,8 +25,8 @@ We highly recommend Ron to everyone that asks.“
 – Steve and Pat Vantress
 
 "We would like to let you know how pleased we are with our home.  There isn’t a day that goes by when we don’t look at each other and comment on how lucky we were to have Ronald G. Mann Building design and construct our home.  From the moment that we sat down with Ron to discuss our ideas; we knew that we were in good hands.  We appreciated the way Ron would listen to what we were thinking, ask thoughtful questions to clarify, raise concerns if needed and in the end, design the dream into the reality of the CAD drawing and built the home of our dreams." 
--  Dan and Kim Miller
+– Dan and Kim Miller
 
 "Ron built us a quality home exactly how we wanted it in a timely fashion. It was our dream home, a beautiful home.  The build went so well and outside of that we became good friends with the Mann’s and still remain good friends!"
--  Joseph & Jill Ham
+– Joseph & Jill Ham
 
