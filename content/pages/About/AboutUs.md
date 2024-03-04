@@ -27,5 +27,5 @@ We highly recommend Ron to everyone that asks.“</em>
 – Dan and Kim Miller
 
 <em>"Ron built us a quality home exactly how we wanted it in a timely fashion. It was our dream home, a beautiful home.  The build went so well and outside of that we became good friends with the Mann’s and still remain good friends!"</em>
-– Joseph & Jill Ham
+– Joseph and Jill Ham
 
