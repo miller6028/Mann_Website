@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteBase "/Donate/"
-RewriteRule "^.*$" "/membership.html" [DP,QSD,NE,R=301,L]

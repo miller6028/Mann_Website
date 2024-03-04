@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteBase "/EAS/"
-RewriteRule "^.*$" "/faq.html#every-so-often-i-hear-an-unusual-squawking-noise-on-my-fm-radio-whats-that" [DP,QSD,NE,R=301,L]
