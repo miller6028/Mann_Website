@@ -1,15 +1,15 @@
 Title: Contact Us
 Menu: SideE
 
-## Mail Us
+### Mail Us
 Ronald G. Mann Building LLC.
 P.O. Box 2389  
 Florence, Oregon 97439
 
-## Call Us
+### Call Us
 (541) 997-9492
 
-## Email Us
+### Email Us
 
 Use this form to send us a message about your building
 inquiries or pricing quotes.
