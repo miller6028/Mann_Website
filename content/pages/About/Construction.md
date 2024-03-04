@@ -30,7 +30,7 @@ When the following time frame is kept, you can expect to close on your new home 
 9. We are ready to close on your home. You will receive a Certificate of Occupancy verifying that your home is move-in ready.
 
 
-####You may ask, "What makes Ronald G. Mann Building equipment investment so different than the rest?"
+####You may ask, "What makes Ronald G. Mann Building so different than the rest?"
 
 One differentiator that you will find with Ronald G. Mann Building LLC is the investment that we have made in our equipment and tools-of-the-trade throughout the years. The equipment allows us to build your home without waiting to have access to third-party sourced equipment and to easily address complex building sites. From cranes to excavators, we have the equipment that we need on the spot, saving you time and money.
 
