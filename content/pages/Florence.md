@@ -1,7 +1,6 @@
 Title: Florence, Oregon
 Menu: SideX
 
-{!notice.md!}
 
 There is a wide variety of useful information about the Florence,
 Oregon area on the internet.  Notable sites include:
@@ -17,8 +16,6 @@ Commerce](https://florencechamber.com/) has information about visiting
 the area and the [Web Cameras &
 Weather](https://florencechamber.com/visit-florence/web-camera-weather/)
 page is especially useful to get an overview of current conditions.
-Of special note is that the KEZI Sky Cam gets its dramatic aerial view
-by being mounted on West Lane Translator's tower.
 
 * [Detailed weather
   information](https://forecast.weather.gov/MapClick.php?lat=43.97372500000006&lon=-124.10680999999994)
