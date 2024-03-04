@@ -19,7 +19,7 @@ Someone from our organization will contact you in reply shortly.
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
     (function(){
-        emailjs.init("user_numberhere");
+        emailjs.init("Xxj-o-yFkzzczXSjp");
     })();
 </script>
 
@@ -64,10 +64,10 @@ Someone from our organization will contact you in reply shortly.
       <!-- Client-side validation is a bit silly, but it's something. -->
       The following question is for testing whether you are a human
       visitor and to prevent automated spam submissions.<br>
-      <b>What river runs through Florence, Oregon?:</b><br>
-      <input type="text" name="river" size="10" required
-             pattern="[Ss][Ii][Uu][Ss][Ll][Aa][Ww]"><br>
-      <i>Hint: One word only, seven letters total.</i>
+      <b>What state does Ron Mann Building operate out of?:</b><br>
+      <input type="text" name="state" size="10" required
+             pattern="[Oo][Rr][Ee][Gg][Oo][Nn]"><br>
+      <i>Hint: One word only, six letters total.</i>
   </label></p>
 
   <input type="submit" value="Send e-mail">
