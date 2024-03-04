@@ -6,10 +6,10 @@ Let us know how we can help you!
 
 ### We offer several options to obtain the home of your dream
 
-Option 1: You can take advantage of a home in the process of already being constructed to add your finishing touches.
-Option 2: You can buy a home that has already been constructed and is move-in ready.
-Option 3: You can buy a vacant lot already owned by Mann Building and contract for a pre-designed home to be built.
-Option 4: You can buy your own lot and contract with Mann Building to design and construct your home.
+1. You can take advantage of a home in the process of already being constructed to add your finishing touches.
+2. You can buy a home that has already been constructed and is move-in ready.
+3. You can buy a vacant lot already owned by Mann Building and contract for a pre-designed home to be built.
+4. You can buy your own lot and contract with Mann Building to design and construct your home.
 
 
 ### Home Construction In Progress
