@@ -1,9 +1,10 @@
 Title: Our Homes
 Menu: SideB
 
+Ronald G Mann Building LLC specializes in complex site builds and delivers a full set of planning services by using our local knowledge and local source of craftsmen to give you the best experience in constructing the home of your dreams.
+Let us know how we can help you!
 
-
-### Ronald G. Mann Building LLC offers several options to obtain the home of your dream
+### We offer several options to obtain the home of your dream
 
 Option 1: You can take advantage of a home in the process of already being constructed to add your finishing touches.
 Option 2: You can buy a home that has already been constructed and is move-in ready.
