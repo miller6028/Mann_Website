@@ -19,7 +19,14 @@ Let us know how we can help you!
 | Idylewood	Lot         | #215	                | .36 Acres	 | Lot cleared, Construction to start summer '19
 
 
-### Vacant Land
+### Completed Homes Available to Buy
+
+| Shelter Cove	        | 79 Edgewater Ct	      | .37 Acres	 | Home currently under construction
+
+| Idylewood	Lot         | #215	                | .36 Acres	 | Lot cleared, Construction to start summer '19
+
+
+### Vacant Land Ready for Your Design
 
 Here is a representative sample of some of the vacant lots currently owned by Ron Mann Building.
 We have knowledge of the property and expertise on providing you with the best house design to fit on it.
@@ -47,7 +54,7 @@ We have knowledge of the property and expertise on providing you with the best h
 | The Reserve         	| Lot #49	              | .37 Acres | PUD
 
 
-### Examples of previous Homes that we have designed and built
+### Previous Home Builds for Other Satisfied Clients
 
 | Idylewood	            | 3 bedroom, 2 bath home designed and constructed by Ronald G. Mann Building LLC.
 
