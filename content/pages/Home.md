@@ -4,7 +4,9 @@ URL:
 Save_As: index.html
 
 
+
 ##RONALD G. MANN BUILDING LLC,   CCB#26363
+
 ###Ready to plan and build your custom dream home on the Central Oregon Coast
 
 Ronald G Mann Building LLC specializes in complex site builds and delivers a full set of planning services by using our local knowledge and local source of craftsmen to give you the best experience in constructing the home of your dreams.
