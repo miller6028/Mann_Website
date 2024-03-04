@@ -3,7 +3,7 @@ Menu: SideA
 
 
 
-***Ronald G. Mann Building LLC
+###Ronald G. Mann Building LLC
 
 <p><img alt="Ron and Shawn" title="Ron and Shawn" src="/images/mnaboutus_construction_mannspose.jpg" /></p>
 
@@ -15,7 +15,7 @@ Ronald G. Mann Building LLC also offers home planning and building services, wit
 
 ----
 
-***Customer Reviews
+###Customer Reviews
 
 <em>“When we decided to move to Florence, we were fortunate to find (Ronald G. Mann Building LLC).
 After looking at several homes we decided that Mann Construction was definitely the best choice.
