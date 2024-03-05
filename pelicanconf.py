@@ -237,4 +237,4 @@ with open(OURHOME_MD, 'a') as ourhome_md:
                 print(f'Title: {address}\nStatus: Hidden\n', file=prop_file)
                 for img in sorted(property_dir.glob('*')):
                     img_name = img.name
-                    print(f'![{img_name}]({{static}}{img})\n', file=prop_file)
+                    print(f'![{img_name}]({{static}}/{img.relative_to(path_path)})\n', file=prop_file)
