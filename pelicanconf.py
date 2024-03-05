@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
+""" Pelican configuration file """
+
 from __future__ import unicode_literals
 from collections import namedtuple
 import datetime
@@ -169,25 +172,25 @@ path_path = pathlib.Path(PATH)
 pages_path = path_path / 'pages'
 pages_menu_info = []
 for md in pages_path.glob('**/*.md'):
-    title = ''
-    menu = ''
+    TITLE = ''
+    MENU = ''
     with md.open() as f:
         while True:
             line = f.readline()
             if not line or ':' not in line:
                 break
             if line.lower().startswith('title:'):
-                title = line[6:].strip()
+                TITLE = line[6:].strip()
             if line.lower().startswith('menu:'):
-                menu = line[5:].strip()
-    assert title
-    if menu:
-        slug = title
+                MENU = line[5:].strip()
+    assert TITLE
+    if MENU:
+        slug = TITLE
         for pattern, repl in SLUG_REGEX_SUBSTITUTIONS:
             slug = re.sub(pattern, repl, slug)
         slug = slug.lower()
         page_url = f'{SITEURL}/{slug}.html'
-        pages_menu_info.append((menu, title, page_url))
+        pages_menu_info.append((MENU, TITLE, page_url))
 
 # Now iterate through the list of Markdown pages to form MENUITEMS and
 # FOOTERMENUITEMS:
@@ -215,12 +218,12 @@ images_path = path_path / 'images'
 properties_path = pages_path / 'Properties'
 shutil.rmtree(properties_path, ignore_errors=True)
 os.makedirs(properties_path)
-with open(OURHOME_MD, 'a') as ourhome_md:
+with open(OURHOME_MD, 'a', encoding='ascii') as ourhome_md:
     for subdirectory, description in IMAGE_GROUPS:
         print(f'\n### {description}', file=ourhome_md)
-        print('| Location | Address | Lot Size| Additional Information |',
+        print('| Location | Address | Lot Size| Additional Information | |',
               file=ourhome_md)
-        print('| :--- | :--- | :---| :--- |', file=ourhome_md)
+        print('| :--- | :--- | :---| :--- | :---: |', file=ourhome_md)
         dir_path = images_path / subdirectory
         for property_dir in sorted(dir_path.glob('*')):
             property_attrs = property_dir.name.split('^')
@@ -228,13 +231,24 @@ with open(OURHOME_MD, 'a') as ourhome_md:
             address, location, lot_size, info = property_attrs
             property_md = properties_path / (address + '.md')
             property_link = property_md.relative_to(pages_path)
-            print(f'| [{location}]({{filename}}{property_link}) '
-                  f'| [{address}]({{filename}}{property_link}) '
-                  f'| [{lot_size}]({{filename}}{property_link}) '
-                  f'| [{info}]({{filename}}{property_link}) |',
-                  file=ourhome_md)
-            with open(property_md, 'w') as prop_file:
+
+            FIRST_IMG_NAME = FIRST_IMG_PATH = None
+            with open(property_md, 'w', encoding='ascii') as prop_file:
                 print(f'Title: {address}\nStatus: Hidden\n', file=prop_file)
                 for img in sorted(property_dir.glob('*')):
                     img_name = img.name
-                    print(f'![{img_name}]({{static}}/{img.relative_to(path_path)})\n', file=prop_file)
+                    img_path = f'{{static}}/{img.relative_to(path_path)}'
+                    if not FIRST_IMG_NAME:
+                        FIRST_IMG_PATH = img_path
+                        FIRST_IMG_NAME = img_name
+                    print(f'![{img_name}]({img_path})\n', file=prop_file)
+
+            print(f'| [{location}]({{filename}}{property_link}) '
+                  f'| [{address}]({{filename}}{property_link}) '
+                  f'| [{lot_size}]({{filename}}{property_link}) '
+                  f'| [{info}]({{filename}}{property_link}) '
+
+                  f'| <div style="width:100px"> [![{FIRST_IMG_NAME}]'
+                  f'({FIRST_IMG_PATH})]({{filename}}{property_link}) </div> '
+                  f'|',
+                  file=ourhome_md)
