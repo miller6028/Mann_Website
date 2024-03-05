@@ -62,4 +62,4 @@ We have knowledge of the property and expertise on providing you with the best h
 | Northeast Florence	  | Custom built home involving a complex site with a steep hillside.                                    |
 | North Florence	      | Custom built home involving a complex site with a steep hillside and extreme water management issues |
 
-[Try Home Picture Page]({filename}Current/79EdgewaterCt.md)
+[Try Home Picture Page]({filename}Current/79 Edgewater Ct.md)
