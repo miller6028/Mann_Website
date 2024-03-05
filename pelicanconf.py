@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from collections import namedtuple
 import datetime
+import os
 import pathlib
 import re
+import shutil
 
-from markdown_include.include import MarkdownInclude
+#saa from markdown_include.include import MarkdownInclude
 
 # The Pelican settings are documented here:
 #   https://docs.getpelican.com/en/stable/settings.html
@@ -31,7 +34,12 @@ SITEDESCRIPTION = \
     "Information about Ronald G. Mann Building LLC."
 AUTHOR = 'Ronald G. Mann Building LLC'
 COPYRIGHT_NAME = AUTHOR
-COPYRIGHT_YEAR = '2024-' + str(datetime.datetime.today().year)
+FIRST_YEAR = '2024'
+CURRENT_YEAR = str(datetime.datetime.today().year)
+if CURRENT_YEAR == FIRST_YEAR:
+    COPYRIGHT_YEAR = CURRENT_YEAR
+else:
+    COPYRIGHT_YEAR = f'{FIRST_YEAR}-{CURRENT_YEAR}'
 ROBOTS = 'index, follow'
 FAVICON = SITEURL + '/images/favicon.ico'
 SITELOGO = SITEURL + '/images/mnronaldgmannbuilding.png'
@@ -53,7 +61,7 @@ MARKDOWN = {
         'markdown.extensions.meta',
         'markdown.extensions.smarty',
         'markdown.extensions.toc',
-        MarkdownInclude({'base_path': 'content'})
+ # saa       MarkdownInclude({'base_path': 'content'})
     },
     'output_format': 'html5'
 }
@@ -104,7 +112,7 @@ LOAD_CONTENT_CACHE = False
 # Tell Pelican where things come from and go to.
 PATH = 'content'  # Keep content separate from how to build.
 PAGE_PATHS = ['pages']  # Where to look in content subdirectory for our pages.
-STATIC_PATHS = ['images', 'pdfs', 'extra']  # Copy things from these to output.
+STATIC_PATHS = ['images']  # Copy things from these to output.
 OUTPUT_PATH = 'output/'  # Where to put the output.
 PAGE_URL = '{slug}.html'  # Output the HTML at the root instead of in pages/
 PAGE_SAVE_AS = '{slug}.html'
@@ -192,27 +200,41 @@ for menu, title, page_url in sorted(pages_menu_info):
         FOOTERMENUITEMS.append((title, page_url))
 # Done!
 
-# We want redirects of URLs from the old site to go to the new site
-# URLs.  This is done with .htaccess files in subdirectories on the
-# website as needed.  The source for these files is
-# content/extra/htaccess* but we need Pelican to copy them to the
-# right place in the output.  This is done via EXTRA_PATH_METADATA.
-# Instead of building that manually, the following code automatically
-# builds EXTRA_PATH_METADATA from the list of extra/htaccess* files.
-# As an example, extra/htaccess_About will end up in About/.htaccess
-# in the output.
-EXTRA_PATH_METADATA = {
-    'extra/google91b9f44816fd80c5.html': {
-        'path': 'google91b9f44816fd80c5.html'
-    }
-}
-extra_path = path_path / 'extra'
-for hta in extra_path.glob('htaccess*'):
-    rel_hta = pathlib.Path(*hta.parts[-2:])
-    hta_loc = hta.name[len('htaccess'):]
-    if not hta_loc:
-        hta_loc = '.htaccess'
-    else:
-        assert hta_loc[0] == '_'
-        hta_loc = hta_loc[1:] + '/.htaccess'
-    EXTRA_PATH_METADATA[str(rel_hta)] = {'path': hta_loc}
+# OurHomes.md is built automatically from the paths to images
+ImageGroup = namedtuple('ImageGroup', ['subdirectory', 'description'])
+IMAGE_GROUPS = (
+    ImageGroup('Current', 'Home Construction In Progress'),
+    ImageGroup('Sale', 'Completed Homes Available to Buy'),
+    ImageGroup('Vacant', 'Vacant Land Ready for Your Design'),
+    ImageGroup('Previous', 'Previous Home Builds for Other Satisfied Clients')
+)
+OURHOME_TEMPLATE = 'content/pages/OurHomes.template'
+OURHOME_MD = 'content/pages/OurHomes.md'
+shutil.copyfile(OURHOME_TEMPLATE, OURHOME_MD)
+images_path = path_path / 'images'
+properties_path = pages_path / 'Properties'
+shutil.rmtree(properties_path, ignore_errors=True)
+os.makedirs(properties_path)
+with open(OURHOME_MD, 'a') as ourhome_md:
+    for subdirectory, description in IMAGE_GROUPS:
+        print(f'\n### {description}', file=ourhome_md)
+        print('| Location | Address | Lot Size| Additional Information |',
+              file=ourhome_md)
+        print('| :--- | :--- | :---| :--- |', file=ourhome_md)
+        dir_path = images_path / subdirectory
+        for property_dir in sorted(dir_path.glob('*')):
+            property_attrs = property_dir.name.split('^')
+            assert len(property_attrs) == 4
+            address, location, lot_size, info = property_attrs
+            property_md = properties_path / (address + '.md')
+            property_link = property_md.relative_to(pages_path)
+            print(f'| [{location}]({{filename}}{property_link}) '
+                  f'| [{address}]({{filename}}{property_link}) '
+                  f'| [{lot_size}]({{filename}}{property_link}) '
+                  f'| [{info}]({{filename}}{property_link}) |',
+                  file=ourhome_md)
+            with open(property_md, 'w') as prop_file:
+                print(f'Title: {address}\nStatus: Hidden\n', file=prop_file)
+                for img in sorted(property_dir.glob('*')):
+                    img_name = img.name
+                    print(f'![{img_name}]({{static}}{img})\n', file=prop_file)
