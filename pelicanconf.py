@@ -221,16 +221,20 @@ os.makedirs(properties_path)
 with open(OURHOME_MD, 'a', encoding='ascii') as ourhome_md:
     for subdirectory, description in IMAGE_GROUPS:
         print(f'\n### {description}', file=ourhome_md)
-        print('| Location | Address | Lot Size| Additional Information | |',
+        print('| Location | Address | Lot Size| Additional Information | | |',
               file=ourhome_md)
-        print('| :--- | :--- | :---| :--- | :---: |', file=ourhome_md)
+        print('| :--- | :--- | :---| :--- | :---: | ---- |', file=ourhome_md)
         dir_path = images_path / subdirectory
         for property_dir in sorted(dir_path.glob('*')):
             property_attrs = property_dir.name.split('^')
             num_property_attrs = len(property_attrs)
             assert 4 <= num_property_attrs <= 5
             address, location, lot_size, info = property_attrs[:4]
-            url = property_attrs[4] if num_property_attrs == 5 else None
+            if num_property_attrs == 5:
+                listing_url = (f'[Listing link](https://tinyurl.com/'
+                               f'{property_attrs[4]}) |')
+            else:
+                listing_url = ''
             property_md = properties_path / (address + '.md')
             property_link = property_md.relative_to(pages_path)
 
@@ -252,5 +256,5 @@ with open(OURHOME_MD, 'a', encoding='ascii') as ourhome_md:
 
                   f'| <div style="width:100px"> [![{FIRST_IMG_NAME}]'
                   f'({FIRST_IMG_PATH})]({{filename}}{property_link}) </div> '
-                  f'|',
+                  f'| {listing_url} |',
                   file=ourhome_md)
