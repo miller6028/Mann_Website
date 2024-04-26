@@ -22,7 +22,7 @@ import shutil
 # Depending on the scope of changes, you may want to change "westlanetv.org"
 # in the SITEURL to wherever the staging site is so links point within the
 # staging site.
-SITEURL = 'https://mann-website.pages.dev'
+SITEURL = 'https://rmannbuilders.com'
 SITENAME = 'Ronald G. Mann Building LLC'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
