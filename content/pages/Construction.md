@@ -34,5 +34,6 @@ When the following time frame is kept, you can expect to close on your new home 
 
 One differentiator that you will find with Ronald G. Mann Building LLC is the investment that we have made in our equipment and tools-of-the-trade throughout the years. The equipment allows us to build your home without waiting to have access to third-party sourced equipment and to easily address complex building sites. From cranes to excavators, we have the equipment that we need on the spot, saving you time and money.
 
-Another differentiator is that we know this area and the special issues that need to be addressed in the construction process.  We come from several generations of builders in this area and have accumulated knowledge and expertise to apply to your construction project.
+We also know this area extremely well and the special issues that need to be addressed in the construction process.  We come from several generations of builders in this area and have accumulated knowledge and expertise to apply to your construction project.
 
+Finally, we are full-service design AND build company.  We use a collaborative design process from your first ideas of your home to the building plans and specifications.  We use state-of-the-art architectural design software that allows us to work with you, regardless of where you are located.
